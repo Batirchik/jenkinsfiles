@@ -1,3 +1,9 @@
 #! /usr/bin/env groovy
 
-println env
+stage ('Main') {
+  node() {
+    println "${env}"
+  }
+}
+
+return this

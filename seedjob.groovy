@@ -300,7 +300,7 @@ listView('0_CICD') {
             traits {
               branchDiscoveryTrait()
               headRegexFilter {
-                regex(/(${env_type_mapping[env_type]})-AppGroup2-hb$/)
+                regex(/(${env_type_mapping[env_type]})-app20-hdi$/)
               }
             }
           }
